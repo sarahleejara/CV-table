@@ -43,20 +43,21 @@ ul{
 ul i{
   color: #6f90da;
 }
+.experience{
+  margin-top: 20px;
+  margin-left: 20px;
+}
 .experience h4{
   text-transform: uppercase;
   margin: 0;
   padding: 0;
 }
-.experience{
-  margin-top: 10px;
-  margin-left: 20px;
-}
 .experience td{
   vertical-align: top;
   padding-left: 20px;
+  padding-top: 15px;
+  max-width: 210px;
 }
-
 .experience p{
   margin: 0;
 }
