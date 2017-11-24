@@ -1,0 +1,38 @@
+.head{
+  display: flex;
+  justify-content: center;
+}
+#name{
+  text-transform: uppercase;
+  font-weight: normal;
+  vertical-align: top;
+}
+h1{
+  text-transform: uppercase;
+  font-size: 30px;
+  color: blue;
+  padding: 0;
+  margin: 0;
+}
+#social{
+  font-weight: normal;
+  text-align: left;
+  vertical-align: top;
+  padding-left: 10px;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0 20px;
+}
+ul i{
+  color: blue;
+}
+.Experience h4{
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+.Experience{
+  margin-top: 10px;
+}
