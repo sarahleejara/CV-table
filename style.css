@@ -1,5 +1,6 @@
 *{
   font-family: "Arial", "Helvetica",sans-serif;
+  background-color: #F1F1F1;
 }
 body{
   width: 100%;
@@ -8,7 +9,7 @@ body{
 .Resume{
   max-width: 100px;
   height: 50px;
-  background-color: #6f90da;
+  background-color: #2B8BE5;
   color: white;
   text-align: center;
   padding: 18px 0;
@@ -30,7 +31,7 @@ body{
 h1{
   text-transform: uppercase;
   font-size: 55px;
-  color: #6f90da;
+  color: #2B8BE5;
   padding: 0;
   margin: 0;
 }
@@ -46,7 +47,7 @@ ul{
   margin: 0 20px;
 }
 ul i{
-  color: #6f90da;
+  color: #2B8BE5;
 }
 .experience{
   margin-top: 20px;
@@ -57,6 +58,7 @@ ul i{
   text-transform: uppercase;
   margin: 0;
   padding: 0;
+  color: #2B8BE5;
 }
 .experience td{
   vertical-align: top;
@@ -68,13 +70,28 @@ ul i{
   margin: 0;
 }
 .skills{
-  margin-left: 420px;
+  margin-left: 415px;
   margin-top: 50px;
 }
 #level th{
-  padding: 0px 0px 0px 30px;
+  padding: 0px 20px 0px 20px;
   text-align: center;
 }
 #title{
   text-transform: uppercase;
+  text-align: left;
+}
+.progress-bar{
+  width: 100%;
+  background-color: #f1f1f1;
+  padding-left: 5px;
+}
+.progress-bar-fill{
+  display: block;
+  height: 10px;
+  background-color: #659cef;
+  transition: width 500ms ease-in-out;
+}
+.skills td{
+  padding-right: 30px;
 }
